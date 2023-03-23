@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="css.css">
+	<script src="js.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<header>
+		<nav id="header-flex-nav">
+			<div id="desktop-header">
+				<section class="left">
+					<a href="" class="svg-35 always-white-a">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+							<path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+							<path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+						</svg>
+					</a>
+					<ul>
+						<li><a href="" class="selected-a-header">Docs</a></li>
+						<li><a href="">Examples</a></li>
+						<li><a href="">Icons</a></li>
+						<li><a href="">Themes</a></li>
+						<li><a href="">Blog</a></li>
+					</ul>
+				</section>
+				<section class="central">
+					<input type="text" name="search-header" id="search-header" placeholder="Search">
+				</section>
+				<section class="right">
+					<ul>
+						<li><a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+								<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+							</svg>
+						</a></li>
+						<li><a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+								<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+							</svg>
+						</a></li>
+						<li><a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-h-square-fill" viewBox="0 0 16 16">
+								<path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2Zm9 4.002V12H9.67V8.455H6.33V12H5V4.002h1.33v3.322h3.34V4.002H11Z"/>
+							</svg>
+						</a></li>
+						<li><div class="vertical-bar"></div></li>
+						<li><a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd-rack-fill" viewBox="0 0 16 16">
+								<path d="M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h1v2H2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2h-1V7h1a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-2 7a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zM12 7v2H4V7h8z"/>
+							</svg>
+						</a></li>
+						<li><div class="vertical-bar"></div></li>
+						<li><a href="">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-inboxes-fill" viewBox="0 0 16 16">
+								<path d="M4.98 1a.5.5 0 0 0-.39.188L1.54 5H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0A.5.5 0 0 1 10 5h4.46l-3.05-3.812A.5.5 0 0 0 11.02 1H4.98zM3.81.563A1.5 1.5 0 0 1 4.98 0h6.04a1.5 1.5 0 0 1 1.17.563l3.7 4.625a.5.5 0 0 1 .106.374l-.39 3.124A1.5 1.5 0 0 1 14.117 10H1.883A1.5 1.5 0 0 1 .394 8.686l-.39-3.124a.5.5 0 0 1 .106-.374L3.81.563zM.125 11.17A.5.5 0 0 1 .5 11H6a.5.5 0 0 1 .5.5 1.5 1.5 0 0 0 3 0 .5.5 0 0 1 .5-.5h5.5a.5.5 0 0 1 .496.562l-.39 3.124A1.5 1.5 0 0 1 14.117 16H1.883a1.5 1.5 0 0 1-1.489-1.314l-.39-3.124a.5.5 0 0 1 .121-.393z"/>
+							</svg>
+						</a></li>
+					</ul>
+				</section>
+			</div>
+
+			<div id="mobile-header">
+				<a href="" class="svg-35">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+						<path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+					</svg>
+				</a>
+				<a href="" class="svg-35 always-white-a">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+						<path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+						<path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+					</svg>
+				</a>
+				<a href="" class="svg-35">
+					<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots" viewBox="0 0 16 16">
+						<path d="M3 9.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3zm5 0a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3z"/>
+					</svg>
+				</a>
+			</div>
+		</nav>
+	</header>
+	<div id="main-wrapper">
+		<aside id="left-aside">
+			<nav>
+				<ul class="options">
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+					<li>
+						<strong>
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-0-circle" viewBox="0 0 16 16">
+								<path d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z"/>
+								<path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0ZM1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8Z"/>
+							</svg>
+							Getting started
+						</strong>
+						<ul class="sub-options">
+							<li><a href="">Solor</a></li>
+							<li><a href="">Aliquam</a></li>
+							<li><a href="">Voluptas</a></li>
+							<li><a href="">Sunt</a></li>
+							<li><a href="">Officiis</a></li>
+							<li><a href="">Commodi</a></li>
+							<li><a href="">Consequuntur</a></li>
+							<li><a href="">Voluptatibus</a></li>
+							<li><a href="">Architecto</a></li>
+							<li><a href="">Similique</a></li>
+							<li><a href="">Voluptate</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</aside>
+		<main>
+			<div class="get-started">
+				<div>
+					<h1 id="main-h1">Get started with Bootstrap</h1>
+					<a href="">View on GitHub</a>
+				</div>
+				<p>
+					Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from
+					prototype to production - in minut.
+				</p>
+			</div>
+			<div class="crux">
+				<h2>Quick start</h2>
+				<p>
+					Get started by including Bootstrap’s production-ready CSS
+					and JavaScript via CDN without the need for any build steps.
+					See it in practice with this <a href="">Bootstrap CodePen demo</a>.
+				</p>
+				<ol>
+					<li>
+						<p><strong>Create a new <span class="redish">index.html</span> file in your project root.</strong>
+							Include the <span class="redish">&lt;meta name="viewport"&gt;</span> tag as well for
+							<a href="">proper responsive behavior</a> in mobile devices.
+						</p>
+						<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">"en"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"utf-8"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">"viewport"</span> <span class="na">content</span><span class="o">=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Bootstrap demo<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello, world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div>
+					</li>
+					<li>
+						<p><strong>Include Bootstrap’s CSS and JS.</strong> Place the
+						<span class="redish">&lt;link&gt;</span> tag in the
+						<span class="redish">&lt;head&gt;</span>
+						for our CSS, and the <span class="redish">&lt;script&gt;</span> tag for our JavaScript
+						bundle (including Popper for positioning dropdowns, poppers, and tooltips) before 
+						the closing <span class="redish">&lt;/body&gt;</span>. Learn more about our
+						<a href="#cdn-links">CDN links</a>.</p>
+						<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="cp">&lt;!doctype html&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">"en"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">"utf-8"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">"viewport"</span> <span class="na">content</span><span class="o">=</span><span class="s">"width=device-width, initial-scale=1"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Bootstrap demo<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">link</span> <span class="na">href</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"</span> <span class="na">rel</span><span class="o">=</span><span class="s">"stylesheet"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Hello, world!<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"</span> <span class="na">integrity</span><span class="o">=</span><span class="s">"sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"</span> <span class="na">crossorigin</span><span class="o">=</span><span class="s">"anonymous"</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></span></code></pre></div>
+					</li>
+				</ol>
+			</div>
+		</main>
+		<aside id="right-aside">
+			<nav>
+				<strong>On this page</strong>
+				<hr>
+				<ul>
+					<li><a href="">Quick start</a></li>
+					<li><a href="">CDN links</a></li>
+					<li><a href="">Next steps</a></li>
+					<li><a href="">JS component</a></li>
+					<li><a href="">Important globals</a></li>
+					<li><a href="">HTML5 doctype</a></li>
+					<li><a href="">Responsive meta</a></li>
+					<li><a href="">Box-sizing</a></li>
+					<li><a href="">Reboot</a></li>
+					<li><a href="">Community</a></li>
+				</ul>
+			</nav>
+		</aside>
+	</div>
+	<footer>
+		<div id="footer-wrapper" class="row">
+			<div class="col-12 col-lg-3">
+				<div id="footer-bootstrap">
+					<a href="" class="svg-35">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+							<path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+							<path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+						</svg>
+					</a>
+					<span>Bootstrap</span>
+				</div>
+				<p>
+					Designed and built with all the love in the world by
+					the <a href="">Bootstrap team</a> with the help of our contributors.
+				</p>
+				<p>
+					Code licensed <a href="">MIT</a>, docs <a href="">CC BY 3.0</a>.
+				</p>
+				<p>
+					Currently v5.3.0-alpha1.
+				</p>
+			</div>
+			<div class="col-6 col-lg-2 links-columns" id="links-footer-1">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Docs</a></li>
+					<li><a href="">Examples</a></li>
+					<li><a href="">Icons</a></li>
+					<li><a href="">Themes</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Swag Store</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-lg-2 links-columns">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Docs</a></li>
+					<li><a href="">Examples</a></li>
+					<li><a href="">Icons</a></li>
+					<li><a href="">Themes</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Swag Store</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-lg-2 links-columns">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Docs</a></li>
+					<li><a href="">Examples</a></li>
+					<li><a href="">Icons</a></li>
+					<li><a href="">Themes</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Swag Store</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-lg-2 links-columns">
+				<h5>Links</h5>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Docs</a></li>
+					<li><a href="">Examples</a></li>
+					<li><a href="">Icons</a></li>
+					<li><a href="">Themes</a></li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Swag Store</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
